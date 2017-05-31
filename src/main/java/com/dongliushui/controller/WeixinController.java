@@ -97,6 +97,6 @@ public class WeixinController {
 	        } finally {  
 	            out.close();  
 	            out = null;  
-	        }  
+	        }
 	    }  
 }
