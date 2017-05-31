@@ -27,8 +27,10 @@ import com.dongliushui.xmlwriter.TextMsgWriter;
 @Controller  
 @RequestMapping("/weixinCon") 
 public class WeixinController {
-	
-	 private Logger log = Logger.getLogger(WeixinController.class);
+
+
+
+	private Logger log = Logger.getLogger(WeixinController.class);
 	 
 	 @RequestMapping(method = RequestMethod.GET)  
 	 public void get(HttpServletRequest request, HttpServletResponse response) {  

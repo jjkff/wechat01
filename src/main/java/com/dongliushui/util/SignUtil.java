@@ -16,7 +16,7 @@ public class SignUtil {
 	/** 
 	* 与接口配置信息中的Token要一致 
 	*/  
-	public static String TOKEN = "r983erws02165xfsdgb42khgyvr56dxw";  
+	public static String TOKEN = "jkfjkfjkfjkfjkfjkfjkfjkfjkfjkf11";
 	
     /** 
      * 验证签名 
@@ -26,7 +26,8 @@ public class SignUtil {
      * @return 
      */  
     public static boolean checkSignature(String signature, String timestamp, String nonce) {  
-        String[] arr = new String[] { TOKEN, timestamp, nonce };  
+        String[] arr = new String[] { TOKEN, timestamp, nonce };
+        System.out.print(TOKEN);
         // 将token、timestamp、nonce三个参数进行字典排序  
         Arrays.sort(arr);  
         StringBuilder content = new StringBuilder();  

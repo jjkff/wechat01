@@ -16,7 +16,7 @@
 	default-autowire="byName" default-lazy-init="true">
 	
 	<!-- 处理对静态资源的请求 -->
-    <mvc:resources location="/WEB-INF/views/" mapping="/*.html"/>
+    <mvc:resources location="/" mapping="/*.html"/>
 	
 	<!-- 使用注解驱动特性 -->
 	<mvc:annotation-driven/>

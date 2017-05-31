@@ -8,7 +8,7 @@
   <display-name>dongliushui</display-name>
   
   <welcome-file-list> 
-    <welcome-file>/WEB-INF/views/index.html</welcome-file>
+    <welcome-file>index.html</welcome-file>
   </welcome-file-list>
   
   <servlet>
@@ -42,5 +42,6 @@
   <listener> 
       <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class> 
   </listener>
-	
+
+
 </web-app>
